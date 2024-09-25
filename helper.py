@@ -35,7 +35,7 @@ def create_coins(board):
         for j in range(len(board[i])):
             if board[j][i] == 0:
                 coins.append((i,j))
-                
+
     
     # TODO: Ajouter la position de toutes les cases '0' à la variable coins. Pour ajouter un élément, vous pouvez utiliser l'expression suivante :
     # coins.append((x, y))
