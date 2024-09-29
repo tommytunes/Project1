@@ -43,7 +43,7 @@ class PacMan:
     def move(self):
         if self.direction:
             dx, dy = self.direction
-            new_x = self.x + dx
+            new_x = self.x + dx 
             new_y = self.y + dy
 # BESOIN DE VÉRIFIER CETTE PARTIE
             if self.board[new_y][new_x] == 0:
